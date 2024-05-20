@@ -91,9 +91,6 @@ class Yui_Base():
         except Exception as e:
             print(f"Error: {e}")
 
-    async def emergency_pick(self):
-        return choice(Emergency_Msgs)
-
     async def image_resp(self):
         return choice(Photo_Reesponse)
 
